@@ -17,7 +17,7 @@ for (let item of items) {
 
 let app = document.getElementById("app");
 
-app.addEventListener("click", function() {
+app.addEventListener("click", function(e) {
   if (e.target && e.target.nodeName === "LI") {
     let item = e.target;
     alert("click!" + item.innerHTML);
