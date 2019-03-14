@@ -41,3 +41,10 @@ console.log(newArr2)
 // splice(start, number) start 인덱스부터 number개의 인덱스를 삭제
 console.log(arr2.splice(2, 2))
 
+console.log('------------------------------------------')
+
+// 배열에 규칙적인 연속된 값 할당하기
+const arr3 = Array(5).fill(1)
+console.log(arr3)
+const arr4 = Array(5).fill(1).map((value, index) => value + index)
+console.log(arr4)
