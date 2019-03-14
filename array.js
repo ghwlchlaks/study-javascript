@@ -8,3 +8,8 @@ foods.push('d')
 foods[4] = 'e'
 
 console.log(foods);
+
+// 배열 중복 제거
+const arr  =  [1,1,3,4,5,1,4,2]
+const newArr = [...new Set(arr)]
+console.log(newArr)
