@@ -5,7 +5,8 @@ const sampleData1 = [
         grades: 3,
         times: [[1,2], [19,20], [39, 40]],
         description: 'C언어 재밌게 배웁시다',
-        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788970507385&orderClick=LEA&Kc='
+        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788970507385&orderClick=LEA&Kc=',
+        type: 0
     },
     {
         no: 2,
@@ -13,24 +14,10 @@ const sampleData1 = [
         grades: 2,
         times: [[2, 3], [21, 22], [39, 40]],
         description: '자바 시간입니다.',
-        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791185578217&orderClick=LEB&Kc='
+        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791185578217&orderClick=LEB&Kc=',
+        type: 0
     },
-    {
-        no: 3,
-        title: 'JavaScript',
-        grades: 3,
-        times: [[4,5], [11, 12], [39, 40]],
-        description: '자바스크립트',
-        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791163030034&orderClick=LAH&Kc='
-    },
-    {
-        no: 4,
-        title: 'Android',
-        grades: 2,
-        times: [[1,2], [5, 6], [7, 8]],
-        description: '안드로이드 수업 입니다.',
-        books: 'http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791188612833&orderClick=LAH&Kc='
-    }
+  
 ]
 
 
