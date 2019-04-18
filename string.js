@@ -29,3 +29,43 @@ const numToStr = '' + num
 console.log(typeof numToStr)
 
 console.log('-------------------------------------')
+
+
+// 문자열의 길이 찾기
+const browserType = 'mozilla';
+console.log(browserType.length);
+
+// => 7
+
+// 특정 문자열 찾기
+console.log(browserType[0]);
+
+// => m
+
+// 문자열 내부의 특정 문자열 찾기 및 추출
+console.log(browserType.indexOf('zilla'));
+console.log(browserType.indexOf('test'));
+
+//=> 2 , -1
+
+
+// 특정 문자열 추출
+console.log(browserType.slice(0, 3))
+
+// => moz
+
+// 2번째 인덱스 이후에 모든 문자열 추출
+
+console.log(browserType.slice(2))
+
+// => zilla
+
+
+// 대, 소문자 변경
+
+let data = 'my name is choi'
+console.log(data.toLowerCase());
+console.log(data.toUpperCase())
+
+// 문자열 일부 변경
+console.log(browserType.replace('moz', 'test'))
