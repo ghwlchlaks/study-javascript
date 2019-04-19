@@ -43,3 +43,5 @@ for (let i=0, item; item = b[i]; i++) {
 for (let i in b){
     console.log(b[i])
 }
+
+// github에 적용되지 않음
